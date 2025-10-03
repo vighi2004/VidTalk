@@ -14,8 +14,9 @@ import ChatIcon from '@mui/icons-material/Chat'
 import ClearAllIcon from '@mui/icons-material/ClearAll'
 import BrushIcon from '@mui/icons-material/Brush'
 import BackspaceIcon from '@mui/icons-material/Backspace'
+import server from '../environment';
 
-const server_url ="http://localhost:8000";
+const server_url =server;
 
 var connections = {};
 
